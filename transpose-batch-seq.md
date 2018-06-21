@@ -63,6 +63,7 @@ tensor([[[  1,   2,   3],
 1.29 µs ± 64.4 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
 
 %timeit(a.transpose(0, 1))
+983 ns ± 34.8 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
 ```
 
 transpose()를 사용하자.
